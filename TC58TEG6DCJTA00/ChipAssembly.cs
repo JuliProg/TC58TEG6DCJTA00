@@ -37,18 +37,18 @@ namespace TC58TEG6DCJTA00
         {
             myChip.devManuf = "TOSHIBA";
             myChip.name = "TC58TEG6DCJTA00";
-            myChip.chipID = "DONTKNOW";      // device ID - 98h D1h 90h 15h 76h (TC58TEG6DCJTA00.pdf page 49)
+            myChip.chipID = "DONTKNOW";               // device ID
 
-            myChip.width = Organization.x8;    // chip width - 8 bit
-            myChip.bytesPP = 16384;             // page size - 2048 byte (2Kb)
-            myChip.spareBytesPP = 1280;          // size Spare Area - 64 byte
-            myChip.pagesPB = 256;               // the number of pages per block - 64 
-            myChip.bloksPLUN = 2092;           // number of blocks in CE - 1024
-            myChip.LUNs = 1;                   // the amount of CE in the chip
-            myChip.colAdrCycles = 2;           // cycles for column addressing
-            myChip.rowAdrCycles = 3;           // cycles for row addressing 
-            myChip.vcc = Vcc.v3_3;             // supply voltage
-            (myChip as ChipPrototype_v1).EccBits = 1;                // required Ecc bits for each 512 bytes
+            myChip.width = Organization.x8;           // chip width
+            myChip.bytesPP = 16384;                   // page size in bytes
+            myChip.spareBytesPP = 1280;               // size Spare Area in bytes
+            myChip.pagesPB = 256;                     // the number of pages per block
+            myChip.bloksPLUN = 2092;                  // number of blocks in CE
+            myChip.LUNs = 1;                          // the amount of CE in the chip
+            myChip.colAdrCycles = 2;                  // cycles for column addressing
+            myChip.rowAdrCycles = 3;                  // cycles for row addressing 
+            myChip.vcc = Vcc.v3_3;                    // supply voltage
+            (myChip as ChipPrototype_v1).EccBits = 1; // required Ecc bits for each 512 bytes
 
             #endregion
 
