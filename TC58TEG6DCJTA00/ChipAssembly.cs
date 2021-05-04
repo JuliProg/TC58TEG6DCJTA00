@@ -29,7 +29,7 @@ namespace TC58TEG6DCJTA00
 
         //--------------------Vendor Specific Pin configuration---------------------------
 
-        //  VSP1(38pin) - NC    
+        //  VSP1(38pin) - Vcc    
         //  VSP2(35pin) - NC
         //  VSP3(20pin) - NC
 
