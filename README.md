@@ -16,7 +16,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
 
         //--------------------Vendor Specific Pin configuration---------------------------
 
-        //  VSP1(38pin) - NC    
+        //  VSP1(38pin) - Vcc    
         //  VSP2(35pin) - NC
         //  VSP3(20pin) - NC
 
@@ -80,6 +80,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         
 ```
 </section>
+
 
 
 
