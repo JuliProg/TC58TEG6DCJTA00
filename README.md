@@ -24,7 +24,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         {
             myChip.devManuf = "TOSHIBA";
             myChip.name = "TC58TEG6DCJTA00";
-            myChip.chipID = "DONTKNOW";               // device ID
+            myChip.chipID = "98DE849372";               // device ID
 
             myChip.width = Organization.x8;           // chip width
             myChip.bytesPP = 16384;                   // page size in bytes
@@ -80,6 +80,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         
 ```
 </section>
+
 
 
 
