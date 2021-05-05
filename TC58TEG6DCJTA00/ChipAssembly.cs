@@ -81,7 +81,7 @@ namespace TC58TEG6DCJTA00
 
             myChip.registers.Add(                  // https://github.com/JuliProg/Wiki/wiki/ID-Register
                 "Id Register").
-                Size(4).
+                Size(5).
                 Operations("ReadId_90h");               
                 //Interpretation(ID_interpreting);          
 
